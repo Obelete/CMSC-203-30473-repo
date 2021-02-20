@@ -21,9 +21,10 @@ public class MovieDriver
 			movie.setSoldTickets(movieTicketSold);
 			System.out.println(movie.toString());
 			kb.nextLine();
-			System.out.println("DO you want to enter another(y or no)");
+			System.out.println("DO you want to enter another(y or n)");
 			answer = kb.nextLine();
 		}while (answer.equalsIgnoreCase("y"));
+		System.out.println("Goodbye!");
 	}
 
 }
